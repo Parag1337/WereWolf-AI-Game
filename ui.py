@@ -93,9 +93,6 @@ class GameUI:
 
     def _load_images(self) -> None:
         """Load all game images."""
-        for key in list(self.engine.players[1].role):
-            pass
-
         import config
 
         for key in config.ASSET_VARIANTS:
